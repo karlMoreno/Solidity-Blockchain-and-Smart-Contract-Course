@@ -5,7 +5,7 @@ pragma solidity ^0.6.0;
 contract SimpleStorage {
     // unassigned variables are given null or 0
     uint256 public favoriteNumber;
-
+    //structs are used to create records
     struct People {
         uint256 favoriteNumber;
         string name;
