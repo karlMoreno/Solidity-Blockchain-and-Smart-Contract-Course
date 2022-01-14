@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  web3:
+    image: pyt:3.8
+    container_name: web3
+    hostname: web3
+    volumes:
+      - web3-dir:/var/work_dir
+
+volumes:
+  - web3-dir:/Users/karlmoreno/work/Blockchain/demos/web3_py_simple_storage
